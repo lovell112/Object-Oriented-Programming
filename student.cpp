@@ -38,6 +38,7 @@ class student{
             weight = tempHeight;
             string tempSub[] = {"Mathematics", "Physics", "Chemistry", "literature", "English", "History", "Biology", "Geography"};
             for(int i = 0; i < 8; i++){
+                cout << "Scan subject " << tempSub[i] << " : ";
                 cin >> subject[i].score;
                 subject[i].subName = tempSub[i];
             }
