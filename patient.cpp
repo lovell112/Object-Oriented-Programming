@@ -137,5 +137,11 @@ int main(){
     cout << endl;
     cout << "============ END ============";
 
+    delete NVAn;
+    delete TTHoa;
+    delete LMQuan;
+    delete PNAnh;
+    delete DTBinh;
+
     return 0;
 }
