@@ -132,6 +132,7 @@ class grades{
                     flag = 0;
                     leader = &members[i];
                     cout << "============ SETUP FINISH ============" << endl;
+                    cout << "THE LEADER CLASS IS " << leader->studentCode << endl;
                     return;
                 }
             }
