@@ -15,11 +15,11 @@ class matrix{
         matrix(int newn, int newm){
             n = newn;
             m = newm;
-            mat.resize(n, vector<int>(m));
-            if(countMatrix == 0) cout << "Enter the " << ++countMatrix << "st matrix : " << endl;
-            else if(countMatrix == 1) cout << "Enter the " << ++countMatrix << "nd matrix : " << endl;
-            else if(countMatrix == 2) cout << "Enter the " << ++countMatrix << "rd matrix : " << endl;
-            else cout << "Enter the " << ++countMatrix << "th matrix : " << endl;
+            mat.resize(n, vector<int>(m, 0));
+            if(countMatrix == 0) cout << "Enter the " << ++countMatrix << "st : " << endl;
+            else if(countMatrix == 1) cout << "Enter the " << ++countMatrix << "nd : " << endl;
+            else if(countMatrix == 2) cout << "Enter the " << ++countMatrix << "rd : " << endl;
+            else cout << "Enter the " << ++countMatrix << "th : " << endl;
             for (int i = 0; i < n; i++){
                 for (int j = 0; j < m; j++){
                     // mat[i][j] = (n+m)/(i+j+1);
@@ -52,7 +52,7 @@ class methodMatrix{
             m1 = mat1->getCol(), m2 = mat2->getCol();
             if(m1 == n2){
                 int2D result;
-                result.resize(n1, vector<int>(m1));
+                result.resize(n1, vector<int>(m2, 0));
                 const int2D& operator1 = mat1->getMatrix(), operator2 = mat2->getMatrix();
                 for(int i = 0; i < n1; i++){
                     for(int j = 0; j < m2; j++){
@@ -64,6 +64,7 @@ class methodMatrix{
                 }
                 return result;
             }
+            return {};
         }
         void outMatrix(int2D mat){
             cout << "Matrix is: " << endl;
