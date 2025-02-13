@@ -8,7 +8,7 @@ struct dateTime{
 };
 
 class planeTicket {
-    private:
+    protected:
         string name;
         dateTime date;
         int ticketPrice;
@@ -50,7 +50,7 @@ class planeTicket {
 };
 
 class person {
-    private:
+    protected:
         string name;
         int age;
         string gender;
@@ -108,30 +108,31 @@ class passenger : public person {
         const planeTicket& getTicket() const {
             return ticket;
         }
+        void enterData(){
+            getline(cin, name);
+            cin >> age;
+            cin.ignore();
+            getline(cin, gender);
+            string nameTicket; getline(cin, nameTicket); ticket.setName(nameTicket);
+            int dd; cin >> dd;
+            int mm; cin >> mm;
+            int yyyy; cin >> yyyy;
+            ticket.setDate(dd, mm, yyyy);
+            int price; cin >> price; ticket.setTicketPrice(price);
+            cin >> numberTicket;
+        }
 };
 
 int main(){
     int numberPassenger; cin >> numberPassenger;
+    cin.ignore();
     passenger* user = new passenger[numberPassenger];
     for (int i = 0; i < numberPassenger; i++){
         if(i == 0) cout << "Enter the " << i + 1 << "st : " << endl; 
         else if(i == 1) cout << "Enter the " << i + 1 << "nd : " << endl; 
         else if(i == 2) cout << "Enter the " << i + 1 << "rd : " << endl; 
         else cout << "Enter the " << i + 1 << "th : " << endl;
-        cin.ignore();
-        string fullName; getline(cin, fullName);
-        int age; cin >> age;
-        cin.ignore();
-        string gender; getline(cin, gender);
-        string nameTicket; getline(cin, nameTicket);
-        int dd; cin >> dd;
-        int mm; cin >> mm;
-        int yyyy; cin >> yyyy;
-        int price; cin >> price;
-        int number; cin >> number;
-        passenger* T = new passenger(fullName, age, gender, nameTicket, dd, mm, yyyy, price, number);
-        user[i] = *T;
-        delete T;
+        user[i].enterData();
     }
     for(int i = 0; i < numberPassenger; i++){
         if(i == 0) cout << "The " << i + 1 << "st : "; 
