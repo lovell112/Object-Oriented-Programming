@@ -1,0 +1,3 @@
+D:/ObjectOrientedPrograming/point/cmake-build-debug/CMakeFiles/point.dir
+D:/ObjectOrientedPrograming/point/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ObjectOrientedPrograming/point/cmake-build-debug/CMakeFiles/rebuild_cache.dir

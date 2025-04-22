@@ -1,3 +1,9 @@
 D:/ObjectOrientedPrograming/cmake-build-debug/CMakeFiles/ObjectOrientedPrograming.dir
+D:/ObjectOrientedPrograming/cmake-build-debug/CMakeFiles/book.dir
+D:/ObjectOrientedPrograming/cmake-build-debug/CMakeFiles/matrix.dir
+D:/ObjectOrientedPrograming/cmake-build-debug/CMakeFiles/patient.dir
+D:/ObjectOrientedPrograming/cmake-build-debug/CMakeFiles/planeTicket.dir
+D:/ObjectOrientedPrograming/cmake-build-debug/CMakeFiles/smartphone.dir
+D:/ObjectOrientedPrograming/cmake-build-debug/CMakeFiles/student.dir
 D:/ObjectOrientedPrograming/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/ObjectOrientedPrograming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

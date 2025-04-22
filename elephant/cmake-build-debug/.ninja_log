@@ -1,0 +1,23 @@
+# ninja log v6
+4	627	7621545466739242	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+629	745	7621545472989388	elephant.exe	8a7bcfefa30db0a8
+10	628	7621545749978742	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+628	710	7621545756159188	elephant.exe	8a7bcfefa30db0a8
+9	854	7621545975637141	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+854	1015	7621545984092494	elephant.exe	8a7bcfefa30db0a8
+11	627	7621546555540120	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+627	723	7621546561705255	elephant.exe	8a7bcfefa30db0a8
+11	522	7621550459651444	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+522	599	7621550464768775	elephant.exe	8a7bcfefa30db0a8
+8	636	7621550728066691	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+658	770	7621550734567980	elephant.exe	8a7bcfefa30db0a8
+8	522	7621551027351671	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+522	596	7621551032490638	elephant.exe	8a7bcfefa30db0a8
+8	744	7621553867730934	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+745	886	7621553875103363	elephant.exe	8a7bcfefa30db0a8
+8	510	7621554413043768	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+510	586	7621554418064209	elephant.exe	8a7bcfefa30db0a8
+8	568	7621554772404658	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+568	643	7621554778005915	elephant.exe	8a7bcfefa30db0a8
+9	485	7621556251436577	CMakeFiles/elephant.dir/main.cpp.obj	cc96b611a49ef55b
+485	570	7621556256205251	elephant.exe	8a7bcfefa30db0a8
